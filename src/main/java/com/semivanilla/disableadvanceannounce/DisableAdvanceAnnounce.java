@@ -1,4 +1,4 @@
-package com.miclesworkshop.disableadvanceannounce;
+package com.semivanilla.disableadvanceannounce;
 
 import org.bukkit.Bukkit;
 import org.bukkit.GameRule;
@@ -13,7 +13,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public final class DisableAdvanceAnnounce extends JavaPlugin implements Listener {
+public class DisableAdvanceAnnounce extends JavaPlugin implements Listener {
 
     @Override
     public void onEnable() {
