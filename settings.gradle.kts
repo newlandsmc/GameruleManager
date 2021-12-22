@@ -1,4 +1,4 @@
-rootProject.name = "DisableAdvanceAnnounce"
+rootProject.name = "GameruleManager"
 
 dependencyResolutionManagement {
     repositories {

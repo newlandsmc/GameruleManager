@@ -4,9 +4,9 @@ plugins {
     id("xyz.jpenilla.run-paper") version "1.0.6"
 }
 
-group = "com.semivanilla.disableadvanceannounce"
+group = "com.semivanilla.gamerulemanager"
 version = "1.0.0-SNAPSHOT"
-description = "A plugin that disables advancement messages in chat."
+description = "Manage gamerules on server or world level."
 
 dependencies {
     compileOnly("io.papermc.paper:paper-api:1.18.1-R0.1-SNAPSHOT") // Paper
@@ -22,8 +22,8 @@ tasks {
 
 bukkit {
     name = rootProject.name
-    main = "$group.DisableAdvanceAnnounce"
+    main = "$group.GameruleManager"
     apiVersion = "1.18"
-    website = "https://github.com/SemiVanilla-MC/DisableAdvanceAnnouncements"
+    website = "https://github.com/SemiVanilla-MC/GameruleManager"
     authors = listOf("destro174")
 }
