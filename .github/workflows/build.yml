@@ -19,5 +19,5 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v2
         with:
-          name: DisableAdvanceAnnounce.jar
-          path: build/libs/DisableAdvanceAnnounce-*.jar
+          name: GameruleManager.jar
+          path: build/libs/GameruleManager-*.jar
